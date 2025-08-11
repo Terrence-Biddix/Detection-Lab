@@ -1,4 +1,5 @@
 Detection Lab
+
 Objective
 The purpose of this lab was to simulate the role of a security analyst by monitoring network traffic with Suricata, configuring and testing custom detection rules, and analyzing Suricata’s output logs. The activity involved working with pre-supplied packet capture (PCAP) data and rule files to trigger alerts, examine Suricata’s fast log format for quick checks, and review the more detailed JSON output for in-depth analysis.
 
