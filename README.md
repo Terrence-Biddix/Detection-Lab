@@ -1,9 +1,9 @@
-#Detection Lab
+# Detection Lab
 
-##Objective
+## Objective
 The purpose of this lab was to simulate the role of a security analyst by monitoring network traffic with Suricata, configuring and testing custom detection rules, and analyzing Suricata’s output logs. The activity involved working with pre-supplied packet capture (PCAP) data and rule files to trigger alerts, examine Suricata’s fast log format for quick checks, and review the more detailed JSON output for in-depth analysis.
 
-###Skills Learned
+### Skills Learned
 Configuring and testing custom intrusion detection system (IDS) rules in Suricata.
 
 Using packet capture (PCAP) files to simulate network traffic for analysis.
@@ -16,7 +16,7 @@ Extracting and filtering JSON log data using the jq command.
 
 Understanding IDS rule components: action, header, and rule options.
 
-###Tools Used
+### Tools Used
 Suricata – for network traffic monitoring and alert generation.
 
 sample.pcap – packet capture file containing test network traffic.
@@ -31,7 +31,7 @@ jq – command-line JSON processor for querying log data.
 
 Linux Bash Shell – for executing Suricata commands and log queries.
 
-##Steps
+## Steps
 *1️⃣ Launching Suricata Lab Environment*
 The terminal window shows Suricata installed and ready to run. This step ensures the system has the required dependencies and tools for packet capture and rule testing.
 (Screenshot: Suricata command line initialized
@@ -80,5 +80,5 @@ Using jq, specific alert fields are extracted for cleaner review, making it easi
 The successful correlation of the packet capture, rule match, and log output confirms that Suricata is detecting the intended traffic patterns.
 (Screenshot: summary of detection results in terminal)
 
-##✅ Outcome:
+## ✅ Outcome:
 This lab demonstrated the complete process of creating a Suricata rule, applying it to recorded network traffic, and validating alerts through both quick and detailed log formats. The results confirmed the rule’s accuracy and the ability of Suricata to detect specific traffic patterns effectively.
